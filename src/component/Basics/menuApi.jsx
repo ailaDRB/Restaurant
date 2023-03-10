@@ -1,9 +1,9 @@
 
 const MenuData = [
- 
+
   {
     id: 1,
-    image: "../images/chola.jpg",
+    image: process.env.PUBLIC_URL + "/images/chola.jpg",
     name: "chola",
     category: "lunch",
     price: "5£",
@@ -12,7 +12,7 @@ const MenuData = [
   },
   {
     id: 2,
-    image: "../images/pizza.jpg",
+    image: process.env.PUBLIC_URL + "/images/pizza.jpg",
     name: "pizza",
     category: "evening",
     price: "10£",
@@ -21,7 +21,7 @@ const MenuData = [
   },
   {
     id: 3,
-    image: "../images/nonvegthali.jpg",
+    image: process.env.PUBLIC_URL + "/images/nonvegthali.jpg",
     name: "Non-Veg Thali",
     category: "dinner",
     price: "10£",
@@ -30,7 +30,7 @@ const MenuData = [
   },
   {
     id: 4,
-    image: "images/maggi.jpg",
+    image: process.env.PUBLIC_URL + "/images/maggi.jpg",
     name: "maggi",
     category: "breakfast",
     price: "2£",
@@ -40,7 +40,7 @@ const MenuData = [
 
   {
     id: 5,
-    image: "images/allupakoida.jpg",
+    image: process.env.PUBLIC_URL + "/images/allupakoida.jpg",
     name: "allu pakoda",
     category: "evening",
     price: "12£",
@@ -49,7 +49,7 @@ const MenuData = [
   },
   {
     id: 6,
-    image: "images/corn.jpg",
+    image: process.env.PUBLIC_URL + "/images/corn.jpg",
     name: "corn",
     category: "breakfast",
     price: "3£",
@@ -58,7 +58,7 @@ const MenuData = [
   },
   {
     id: 7,
-    image: "../images/sweet.jpg",
+    image: process.env.PUBLIC_URL + "/images/sweet.jpg",
     name: "Sweets",
     category: "dinner",
     price: "6£",
@@ -67,7 +67,7 @@ const MenuData = [
   },
   {
     id: 8,
-    image: "../images/rajmarice.jpg",
+    image: process.env.PUBLIC_URL + "/images/rajmarice.jpg",
     name: "Rajma Rice",
     category: "lunch",
     price: "6£",
@@ -76,7 +76,7 @@ const MenuData = [
   },
   {
     id: 9,
-    image: "../images/samosa.jpg",
+    image: process.env.PUBLIC_URL + "/images/samosa.jpg",
     name: "samaso",
     category: "evening",
     price: "5£",
@@ -86,3 +86,4 @@ const MenuData = [
 ];
 
 export default MenuData;
+
