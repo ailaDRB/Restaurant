@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className="navbar">
       <nav className="btn-group">
         <div className="logo">
-          <img src='./images/logo.png' alt=" Logo1" />
+          <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="Logo"/>
         </div>
         {categories.map((category) => (
           <span
